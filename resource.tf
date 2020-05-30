@@ -1,9 +1,3 @@
-provider "aws" {
-    region     = "us-west-2"
-    access_key = "AKIAV4RXYT3ZHMZZINNA"
-    secret_key = "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"
-}
-
 variable "instance_type" {
     type = map
     default = {
